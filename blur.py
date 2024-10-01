@@ -1,4 +1,4 @@
-apture = cv2.VideoCapture(0)
+capture = cv2.VideoCapture(0)
 
 # Load the Haar cascade classifier for face detection
 face_cascade = cv2.CascadeClassifier(cv2.data.haarcascades + 'haarcascade_frontalface_default.xml')
